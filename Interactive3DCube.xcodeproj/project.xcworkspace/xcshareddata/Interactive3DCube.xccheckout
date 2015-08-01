@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22C13038-46ED-459A-B319-299C593EE38C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43681C93023A8644612EA2C9DAC2066E3ED078CF</key>
+		<string>https://bitbucket.org/alanhalley/cube-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Interactive3DCube.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43681C93023A8644612EA2C9DAC2066E3ED078CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/alanhalley/cube-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43681C93023A8644612EA2C9DAC2066E3ED078CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43681C93023A8644612EA2C9DAC2066E3ED078CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Interactive3DCube</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C546ED471A3F72A800458D6D /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C546ED461A3F72A800458D6D /* Test.storyboard */; };
+		C546ED551A3F79FF00458D6D /* CubeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C546ED531A3F79FF00458D6D /* CubeCell.m */; };
+		C546ED561A3F79FF00458D6D /* CubeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C546ED541A3F79FF00458D6D /* CubeCell.xib */; };
+		C54981751A384C2500023E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54981741A384C2500023E39 /* main.m */; };
+		C54981781A384C2500023E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54981771A384C2500023E39 /* AppDelegate.m */; };
+		C549817B1A384C2500023E39 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C549817A1A384C2500023E39 /* profileViewController.m */; };
+		C549817E1A384C2500023E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C549817C1A384C2500023E39 /* Main.storyboard */; };
+		C54981801A384C2500023E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C549817F1A384C2500023E39 /* Images.xcassets */; };
+		C54981831A384C2500023E39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54981811A384C2500023E39 /* LaunchScreen.xib */; };
+		C549818F1A384C2500023E39 /* Interactive3DCubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C549818E1A384C2500023E39 /* Interactive3DCubeTests.m */; };
+		C54981A21A384FD100023E39 /* CubeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54981A01A384FD100023E39 /* CubeController.m */; };
+		C55AE8EA1A3C245C007237D8 /* AbstractFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AE8E81A3C245C007237D8 /* AbstractFaceViewController.m */; };
+		C5701D171A3F961C00EA1F9F /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5701D161A3F961C00EA1F9F /* Test1ViewController.m */; };
+		C57D5E911A3CBE7200E9F520 /* CubeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57D5E901A3CBE7200E9F520 /* CubeController.xib */; };
+		C5DACEF01A595EBE00000A1E /* MainScreenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DACEEF1A595EBE00000A1E /* MainScreenTableViewController.m */; };
+		C5DACEF31A59686B00000A1E /* ProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DACEF21A59686B00000A1E /* ProfileData.m */; };
+		C5DACEF71A5968DE00000A1E /* CubeData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DACEF61A5968DE00000A1E /* CubeData.m */; };
+		C5DB659C1A3A38CF00D8A2BF /* Face1.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB659A1A3A38CF00D8A2BF /* Face1.m */; };
+		C5DB659D1A3A38CF00D8A2BF /* Face1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB659B1A3A38CF00D8A2BF /* Face1.xib */; };
+		C5DB65A31A3A398100D8A2BF /* Face2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB65A11A3A398100D8A2BF /* Face2.m */; };
+		C5DB65A41A3A398100D8A2BF /* Face2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB65A21A3A398100D8A2BF /* Face2.xib */; };
+		C5DB65A91A3A39B400D8A2BF /* Face3.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB65A71A3A39B400D8A2BF /* Face3.m */; };
+		C5DB65AA1A3A39B400D8A2BF /* Face3.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB65A81A3A39B400D8A2BF /* Face3.xib */; };
+		C5DB65AF1A3A39D700D8A2BF /* Face4.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB65AD1A3A39D700D8A2BF /* Face4.m */; };
+		C5DB65B01A3A39D700D8A2BF /* Face4.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB65AE1A3A39D700D8A2BF /* Face4.xib */; };
+		C5DB65B51A3A39F800D8A2BF /* Face5.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB65B31A3A39F800D8A2BF /* Face5.m */; };
+		C5DB65B61A3A39F800D8A2BF /* Face5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB65B41A3A39F800D8A2BF /* Face5.xib */; };
+		C5DB65BB1A3A3A2000D8A2BF /* Face6.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB65B91A3A3A2000D8A2BF /* Face6.m */; };
+		C5DB65BC1A3A3A2000D8A2BF /* Face6.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DB65BA1A3A3A2000D8A2BF /* Face6.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C54981891A384C2500023E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54981671A384C2500023E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C549816E1A384C2500023E39;
+			remoteInfo = Interactive3DCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C546ED461A3F72A800458D6D /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		C546ED521A3F79FF00458D6D /* CubeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeCell.h; sourceTree = "<group>"; };
+		C546ED531A3F79FF00458D6D /* CubeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeCell.m; sourceTree = "<group>"; };
+		C546ED541A3F79FF00458D6D /* CubeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubeCell.xib; sourceTree = "<group>"; };
+		C549816F1A384C2500023E39 /* Interactive3DCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interactive3DCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54981731A384C2500023E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54981741A384C2500023E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54981761A384C2500023E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C54981771A384C2500023E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54981791A384C2500023E39 /* profileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		C549817A1A384C2500023E39 /* profileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		C549817D1A384C2500023E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C549817F1A384C2500023E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C54981821A384C2500023E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C54981881A384C2500023E39 /* Interactive3DCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Interactive3DCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C549818D1A384C2500023E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C549818E1A384C2500023E39 /* Interactive3DCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interactive3DCubeTests.m; sourceTree = "<group>"; };
+		C549819F1A384FD100023E39 /* CubeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeController.h; sourceTree = "<group>"; };
+		C54981A01A384FD100023E39 /* CubeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeController.m; sourceTree = "<group>"; };
+		C54981A61A3851D200023E39 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		C55AE8E71A3C245C007237D8 /* AbstractFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFaceViewController.h; sourceTree = "<group>"; };
+		C55AE8E81A3C245C007237D8 /* AbstractFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFaceViewController.m; sourceTree = "<group>"; };
+		C5701D151A3F961C00EA1F9F /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		C5701D161A3F961C00EA1F9F /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C57D5E901A3CBE7200E9F520 /* CubeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubeController.xib; sourceTree = "<group>"; };
+		C5DACEEE1A595EBE00000A1E /* MainScreenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenTableViewController.h; sourceTree = "<group>"; };
+		C5DACEEF1A595EBE00000A1E /* MainScreenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenTableViewController.m; sourceTree = "<group>"; };
+		C5DACEF11A59686B00000A1E /* ProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileData.h; sourceTree = "<group>"; };
+		C5DACEF21A59686B00000A1E /* ProfileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileData.m; sourceTree = "<group>"; };
+		C5DACEF51A5968DE00000A1E /* CubeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeData.h; sourceTree = "<group>"; };
+		C5DACEF61A5968DE00000A1E /* CubeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeData.m; sourceTree = "<group>"; };
+		C5DB65991A3A38CF00D8A2BF /* Face1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face1.h; sourceTree = "<group>"; };
+		C5DB659A1A3A38CF00D8A2BF /* Face1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face1.m; sourceTree = "<group>"; };
+		C5DB659B1A3A38CF00D8A2BF /* Face1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face1.xib; sourceTree = "<group>"; };
+		C5DB65A01A3A398100D8A2BF /* Face2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face2.h; sourceTree = "<group>"; };
+		C5DB65A11A3A398100D8A2BF /* Face2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face2.m; sourceTree = "<group>"; };
+		C5DB65A21A3A398100D8A2BF /* Face2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face2.xib; sourceTree = "<group>"; };
+		C5DB65A61A3A39B400D8A2BF /* Face3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face3.h; sourceTree = "<group>"; };
+		C5DB65A71A3A39B400D8A2BF /* Face3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face3.m; sourceTree = "<group>"; };
+		C5DB65A81A3A39B400D8A2BF /* Face3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face3.xib; sourceTree = "<group>"; };
+		C5DB65AC1A3A39D700D8A2BF /* Face4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face4.h; sourceTree = "<group>"; };
+		C5DB65AD1A3A39D700D8A2BF /* Face4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face4.m; sourceTree = "<group>"; };
+		C5DB65AE1A3A39D700D8A2BF /* Face4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face4.xib; sourceTree = "<group>"; };
+		C5DB65B21A3A39F800D8A2BF /* Face5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face5.h; sourceTree = "<group>"; };
+		C5DB65B31A3A39F800D8A2BF /* Face5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face5.m; sourceTree = "<group>"; };
+		C5DB65B41A3A39F800D8A2BF /* Face5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face5.xib; sourceTree = "<group>"; };
+		C5DB65B81A3A3A2000D8A2BF /* Face6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face6.h; sourceTree = "<group>"; };
+		C5DB65B91A3A3A2000D8A2BF /* Face6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face6.m; sourceTree = "<group>"; };
+		C5DB65BA1A3A3A2000D8A2BF /* Face6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Face6.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C549816C1A384C2500023E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54981851A384C2500023E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54981661A384C2500023E39 = {
+			isa = PBXGroup;
+			children = (
+				C54981711A384C2500023E39 /* Interactive3DCube */,
+				C549818B1A384C2500023E39 /* Interactive3DCubeTests */,
+				C54981701A384C2500023E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54981701A384C2500023E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C549816F1A384C2500023E39 /* Interactive3DCube.app */,
+				C54981881A384C2500023E39 /* Interactive3DCubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54981711A384C2500023E39 /* Interactive3DCube */ = {
+			isa = PBXGroup;
+			children = (
+				C549819D1A384D3E00023E39 /* Cube */,
+				C54981761A384C2500023E39 /* AppDelegate.h */,
+				C54981771A384C2500023E39 /* AppDelegate.m */,
+				C54981791A384C2500023E39 /* profileViewController.h */,
+				C549817A1A384C2500023E39 /* profileViewController.m */,
+				C549817C1A384C2500023E39 /* Main.storyboard */,
+				C549817F1A384C2500023E39 /* Images.xcassets */,
+				C54981811A384C2500023E39 /* LaunchScreen.xib */,
+				C54981721A384C2500023E39 /* Supporting Files */,
+				C546ED461A3F72A800458D6D /* Test.storyboard */,
+				C546ED521A3F79FF00458D6D /* CubeCell.h */,
+				C546ED531A3F79FF00458D6D /* CubeCell.m */,
+				C546ED541A3F79FF00458D6D /* CubeCell.xib */,
+				C5701D151A3F961C00EA1F9F /* Test1ViewController.h */,
+				C5701D161A3F961C00EA1F9F /* Test1ViewController.m */,
+				C5DACEEE1A595EBE00000A1E /* MainScreenTableViewController.h */,
+				C5DACEEF1A595EBE00000A1E /* MainScreenTableViewController.m */,
+			);
+			path = Interactive3DCube;
+			sourceTree = "<group>";
+		};
+		C54981721A384C2500023E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54981731A384C2500023E39 /* Info.plist */,
+				C54981741A384C2500023E39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C549818B1A384C2500023E39 /* Interactive3DCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C549818E1A384C2500023E39 /* Interactive3DCubeTests.m */,
+				C549818C1A384C2500023E39 /* Supporting Files */,
+			);
+			path = Interactive3DCubeTests;
+			sourceTree = "<group>";
+		};
+		C549818C1A384C2500023E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C549818D1A384C2500023E39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C549819D1A384D3E00023E39 /* Cube */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65BE1A3A3A3900D8A2BF /* Controller */,
+				C5DB65BF1A3A3A5D00D8A2BF /* Tools */,
+				C5DB659E1A3A38D700D8A2BF /* Faces */,
+				C5DACEF41A59687300000A1E /* Data */,
+			);
+			name = Cube;
+			sourceTree = "<group>";
+		};
+		C55AE8EC1A3C2496007237D8 /* AbstractFace */ = {
+			isa = PBXGroup;
+			children = (
+				C55AE8E71A3C245C007237D8 /* AbstractFaceViewController.h */,
+				C55AE8E81A3C245C007237D8 /* AbstractFaceViewController.m */,
+			);
+			name = AbstractFace;
+			sourceTree = "<group>";
+		};
+		C5DACEF41A59687300000A1E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5DACEF11A59686B00000A1E /* ProfileData.h */,
+				C5DACEF21A59686B00000A1E /* ProfileData.m */,
+				C5DACEF51A5968DE00000A1E /* CubeData.h */,
+				C5DACEF61A5968DE00000A1E /* CubeData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		C5DB659E1A3A38D700D8A2BF /* Faces */ = {
+			isa = PBXGroup;
+			children = (
+				C55AE8EC1A3C2496007237D8 /* AbstractFace */,
+				C5DB659F1A3A38E500D8A2BF /* Face1 */,
+				C5DB65A51A3A398800D8A2BF /* Face2 */,
+				C5DB65AB1A3A39BA00D8A2BF /* Face3 */,
+				C5DB65B11A3A39E100D8A2BF /* Face4 */,
+				C5DB65B71A3A39FF00D8A2BF /* Face5 */,
+				C5DB65BD1A3A3A2500D8A2BF /* Face6 */,
+			);
+			name = Faces;
+			sourceTree = "<group>";
+		};
+		C5DB659F1A3A38E500D8A2BF /* Face1 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65991A3A38CF00D8A2BF /* Face1.h */,
+				C5DB659A1A3A38CF00D8A2BF /* Face1.m */,
+				C5DB659B1A3A38CF00D8A2BF /* Face1.xib */,
+			);
+			name = Face1;
+			sourceTree = "<group>";
+		};
+		C5DB65A51A3A398800D8A2BF /* Face2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65A01A3A398100D8A2BF /* Face2.h */,
+				C5DB65A11A3A398100D8A2BF /* Face2.m */,
+				C5DB65A21A3A398100D8A2BF /* Face2.xib */,
+			);
+			name = Face2;
+			sourceTree = "<group>";
+		};
+		C5DB65AB1A3A39BA00D8A2BF /* Face3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65A61A3A39B400D8A2BF /* Face3.h */,
+				C5DB65A71A3A39B400D8A2BF /* Face3.m */,
+				C5DB65A81A3A39B400D8A2BF /* Face3.xib */,
+			);
+			name = Face3;
+			sourceTree = "<group>";
+		};
+		C5DB65B11A3A39E100D8A2BF /* Face4 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65AC1A3A39D700D8A2BF /* Face4.h */,
+				C5DB65AD1A3A39D700D8A2BF /* Face4.m */,
+				C5DB65AE1A3A39D700D8A2BF /* Face4.xib */,
+			);
+			name = Face4;
+			sourceTree = "<group>";
+		};
+		C5DB65B71A3A39FF00D8A2BF /* Face5 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65B21A3A39F800D8A2BF /* Face5.h */,
+				C5DB65B31A3A39F800D8A2BF /* Face5.m */,
+				C5DB65B41A3A39F800D8A2BF /* Face5.xib */,
+			);
+			name = Face5;
+			sourceTree = "<group>";
+		};
+		C5DB65BD1A3A3A2500D8A2BF /* Face6 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB65B81A3A3A2000D8A2BF /* Face6.h */,
+				C5DB65B91A3A3A2000D8A2BF /* Face6.m */,
+				C5DB65BA1A3A3A2000D8A2BF /* Face6.xib */,
+			);
+			name = Face6;
+			sourceTree = "<group>";
+		};
+		C5DB65BE1A3A3A3900D8A2BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C549819F1A384FD100023E39 /* CubeController.h */,
+				C54981A01A384FD100023E39 /* CubeController.m */,
+				C57D5E901A3CBE7200E9F520 /* CubeController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C5DB65BF1A3A3A5D00D8A2BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C54981A61A3851D200023E39 /* Tools.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C549816E1A384C2500023E39 /* Interactive3DCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54981921A384C2500023E39 /* Build configuration list for PBXNativeTarget "Interactive3DCube" */;
+			buildPhases = (
+				C549816B1A384C2500023E39 /* Sources */,
+				C549816C1A384C2500023E39 /* Frameworks */,
+				C549816D1A384C2500023E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interactive3DCube;
+			productName = Interactive3DCube;
+			productReference = C549816F1A384C2500023E39 /* Interactive3DCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C54981871A384C2500023E39 /* Interactive3DCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54981951A384C2500023E39 /* Build configuration list for PBXNativeTarget "Interactive3DCubeTests" */;
+			buildPhases = (
+				C54981841A384C2500023E39 /* Sources */,
+				C54981851A384C2500023E39 /* Frameworks */,
+				C54981861A384C2500023E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C549818A1A384C2500023E39 /* PBXTargetDependency */,
+			);
+			name = Interactive3DCubeTests;
+			productName = Interactive3DCubeTests;
+			productReference = C54981881A384C2500023E39 /* Interactive3DCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54981671A384C2500023E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ahmed Saad";
+				TargetAttributes = {
+					C549816E1A384C2500023E39 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C54981871A384C2500023E39 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C549816E1A384C2500023E39;
+					};
+				};
+			};
+			buildConfigurationList = C549816A1A384C2500023E39 /* Build configuration list for PBXProject "Interactive3DCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54981661A384C2500023E39;
+			productRefGroup = C54981701A384C2500023E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C549816E1A384C2500023E39 /* Interactive3DCube */,
+				C54981871A384C2500023E39 /* Interactive3DCubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C549816D1A384C2500023E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57D5E911A3CBE7200E9F520 /* CubeController.xib in Resources */,
+				C549817E1A384C2500023E39 /* Main.storyboard in Resources */,
+				C5DB65BC1A3A3A2000D8A2BF /* Face6.xib in Resources */,
+				C54981831A384C2500023E39 /* LaunchScreen.xib in Resources */,
+				C5DB659D1A3A38CF00D8A2BF /* Face1.xib in Resources */,
+				C5DB65B01A3A39D700D8A2BF /* Face4.xib in Resources */,
+				C54981801A384C2500023E39 /* Images.xcassets in Resources */,
+				C5DB65AA1A3A39B400D8A2BF /* Face3.xib in Resources */,
+				C546ED471A3F72A800458D6D /* Test.storyboard in Resources */,
+				C5DB65B61A3A39F800D8A2BF /* Face5.xib in Resources */,
+				C5DB65A41A3A398100D8A2BF /* Face2.xib in Resources */,
+				C546ED561A3F79FF00458D6D /* CubeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54981861A384C2500023E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C549816B1A384C2500023E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DB65B51A3A39F800D8A2BF /* Face5.m in Sources */,
+				C5701D171A3F961C00EA1F9F /* Test1ViewController.m in Sources */,
+				C5DB65A91A3A39B400D8A2BF /* Face3.m in Sources */,
+				C549817B1A384C2500023E39 /* profileViewController.m in Sources */,
+				C54981781A384C2500023E39 /* AppDelegate.m in Sources */,
+				C5DB659C1A3A38CF00D8A2BF /* Face1.m in Sources */,
+				C546ED551A3F79FF00458D6D /* CubeCell.m in Sources */,
+				C5DACEF31A59686B00000A1E /* ProfileData.m in Sources */,
+				C55AE8EA1A3C245C007237D8 /* AbstractFaceViewController.m in Sources */,
+				C5DB65A31A3A398100D8A2BF /* Face2.m in Sources */,
+				C5DB65AF1A3A39D700D8A2BF /* Face4.m in Sources */,
+				C5DACEF01A595EBE00000A1E /* MainScreenTableViewController.m in Sources */,
+				C5DB65BB1A3A3A2000D8A2BF /* Face6.m in Sources */,
+				C54981A21A384FD100023E39 /* CubeController.m in Sources */,
+				C5DACEF71A5968DE00000A1E /* CubeData.m in Sources */,
+				C54981751A384C2500023E39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54981841A384C2500023E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C549818F1A384C2500023E39 /* Interactive3DCubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C549818A1A384C2500023E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C549816E1A384C2500023E39 /* Interactive3DCube */;
+			targetProxy = C54981891A384C2500023E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C549817C1A384C2500023E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C549817D1A384C2500023E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54981811A384C2500023E39 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54981821A384C2500023E39 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54981901A384C2500023E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54981911A384C2500023E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54981931A384C2500023E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interactive3DCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C54981941A384C2500023E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interactive3DCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C54981961A384C2500023E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Interactive3DCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactive3DCube.app/Interactive3DCube";
+			};
+			name = Debug;
+		};
+		C54981971A384C2500023E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Interactive3DCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactive3DCube.app/Interactive3DCube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C549816A1A384C2500023E39 /* Build configuration list for PBXProject "Interactive3DCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54981901A384C2500023E39 /* Debug */,
+				C54981911A384C2500023E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54981921A384C2500023E39 /* Build configuration list for PBXNativeTarget "Interactive3DCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54981931A384C2500023E39 /* Debug */,
+				C54981941A384C2500023E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54981951A384C2500023E39 /* Build configuration list for PBXNativeTarget "Interactive3DCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54981961A384C2500023E39 /* Debug */,
+				C54981971A384C2500023E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54981671A384C2500023E39 /* Project object */;
+}
